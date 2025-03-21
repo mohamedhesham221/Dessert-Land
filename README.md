@@ -1,6 +1,6 @@
 # 🍰 Desserts Land
 
-Desserts Land is a fully functional and visually appealing **e-commerce landing page** built with modern web technologies. This project leverages **HTML**, **Tailwind CSS**, **DaisyUI**, and **Native JavaScript** to provide a **seamless, interactive, and responsive** user experience. Designed with a **mobile-first approach**, the website ensures smooth performance across all devices.
+Desserts Land is a fully functional and visually appealing **e-commerce website** built with modern web technologies. This project leverages **HTML**, **Tailwind CSS**, **DaisyUI**, and **Native JavaScript** to provide a **seamless, interactive, and responsive** user experience. Designed with a **mobile-first approach**, the website ensures smooth performance across all devices.
 
 ## 📸 Screenshots
 
