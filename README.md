@@ -8,10 +8,9 @@ Desserts Land is a fully functional and visually appealing **e-commerce landing 
 
 ![Desser Land Desktop Screenshot](./assets/img/screenshot.png)
 
-
 ## 🚀 Live Preview
 
-Experience the live version here: [Desser Land Live](#) *(Replace # with the actual URL)*
+Experience the live version here: [Desser Land Live](https://dessert-land-7a7a.vercel.app/)
 
 ## 🗺️ Website Navigation & Page Purposes
 
