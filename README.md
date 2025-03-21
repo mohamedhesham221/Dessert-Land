@@ -95,7 +95,7 @@ Follow these steps to install dependencies and run the project locally:
    npx tailwindcss -i ./assets/css/input.css -o ./assets/css/output.css --watch
    ```
 
-5. Open `index.html` in your preferred browser to run the project.
+5. Open `index.html` in your preferred browser to run the project or run a live server.
 
 ## 👨‍💻 Author
 
