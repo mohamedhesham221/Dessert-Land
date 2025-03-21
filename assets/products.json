@@ -1,0 +1,212 @@
+[
+	{
+		"id": 1,
+		"name": "Chocolate Lava Cake",
+		"price": "250.00",
+		"category": "Cakes",
+		"image": "./assets/img/products/chocolate-lava-cake.webp"
+	},
+	{
+		"id": 2,
+		"name": "Vanilla Cheesecake",
+		"price": "80.00",
+		"category": "Cakes",
+		"image": "./assets/img/products/vanilla-cheese-cake.webp"
+	},
+	{
+		"id": 3,
+		"name": "Strawberry Tart",
+		"price": "150.00",
+		"category": "Desserts",
+		"image": "./assets/img/products/strawberry-tart.webp"
+	},
+	{
+		"id": 4,
+		"name": "Blueberry Muffin",
+		"price": "70.00",
+		"category": "Desserts",
+		"image": "./assets/img/products/blueberry-muffin.webp"
+	},
+	{
+		"id": 5,
+		"name": "Chocolate Milkshake",
+		"price": "30.00",
+		"category": "Drinks",
+		"image": "./assets/img/products/chocolate-milkshake.webp"
+	},
+	{
+		"id": 6,
+		"name": "Lemonade",
+		"price": "40.00",
+		"category": "Drinks",
+		"image": "./assets/img/products/lemonade.webp"
+	},
+	{
+		"id": 7,
+		"name": "Dark Chocolate Bar",
+		"price": "25.00",
+		"category": "Chocolate",
+		"image": "./assets/img/products/dark-chocolate-bar.webp"
+	},
+	{
+		"id": 8,
+		"name": "White Chocolate Truffles",
+		"price": "22.00",
+		"category": "Chocolate",
+		"image": "./assets/img/products/white-chocolate-truffles.webp"
+	},
+	{
+		"id": 9,
+		"name": "Carrot Cake",
+		"price": "280.00",
+		"category": "Cakes",
+		"image": "./assets/img/products/carrot-cake.webp"
+	},
+	{
+		"id": 10,
+		"name": "Lemon Tart",
+		"price": "190.00",
+		"category": "Desserts",
+		"image": "./assets/img/products/lemon-tart.webp"
+	},
+	{
+		"id": 11,
+		"name": "Mango Cheesecake",
+		"price": "65.00",
+		"category": "Cakes",
+		"image": "./assets/img/products/mango-cheesecake.webp"
+	},
+	{
+		"id": 12,
+		"name": "Peanut Butter Brownie",
+		"price": "90.00",
+		"category": "Desserts",
+		"image": "./assets/img/products/peanut-butter-brownie.webp"
+	},
+	{
+		"id": 13,
+		"name": "Sparkling Lemonade",
+		"price": "30.00",
+		"category": "Drinks",
+		"image": "./assets/img/products/sparkling-lemonade.webp"
+	},
+	{
+		"id": 14,
+		"name": "Caramel Chocolate Bar",
+		"price": "20.00",
+		"category": "Chocolate",
+		"image": "./assets/img/products/caramel-chocolate-bar.webp"
+	},
+	{
+		"id": 15,
+		"name": "Chocolate Cupcake",
+		"price": "16.00",
+		"category": "Desserts",
+		"image": "./assets/img/products/chocolate-cupcake.webp"
+	},
+	{
+		"id": 16,
+		"name": "Strawberry Milkshake",
+		"price": "19.00",
+		"category": "Drinks",
+		"image": "./assets/img/products/strawberry-milkshake.webp"
+	},
+	{
+		"id": 17,
+		"name": "White Chocolate Bar",
+		"price": "50.00",
+		"category": "Chocolate",
+		"image": "./assets/img/products/white-chocolate-bar.webp"
+	},
+	{
+		"id": 18,
+		"name": "Orange Cake",
+		"price": "290.00",
+		"category": "Cakes",
+		"image": "./assets/img/products/orange-cake.webp"
+	},
+	{
+		"id": 19,
+		"name": "Vanilla Ice Cream",
+		"price": "22.00",
+		"category": "Desserts",
+		"image": "./assets/img/products/vanilla-ice-cream.webp"
+	},
+	{
+		"id": 20,
+		"name": "Blueberry Smoothie",
+		"price": "21.00",
+		"category": "Drinks",
+		"image": "./assets/img/products/blueberry-smoothie.webp"
+	},
+	{
+		"id": 21,
+		"name": "Dark Chocolate Mousse",
+		"price": "26.00",
+		"category": "Desserts",
+		"image": "./assets/img/products/dark-chocolate-mousse.webp"
+	},
+	{
+		"id": 22,
+		"name": "Raspberry Cheesecake",
+		"price": "60.00",
+		"category": "Cakes",
+		"image": "./assets/img/products/raspberry-cheesecake.webp"
+	},
+	{
+		"id": 23,
+		"name": "Mint Chocolate Bar",
+		"price": "85.00",
+		"category": "Chocolate",
+		"image": "./assets/img/products/mint-chocolate-bar.webp"
+	},
+	{
+		"id": 24,
+		"name": "Banana Smoothie",
+		"price": "35.00",
+		"category": "Drinks",
+		"image": "./assets/img/products/banana-milk.webp"
+	},
+	{
+		"id": 25,
+		"name": "Plum Tart",
+		"price": "19.00",
+		"category": "Desserts",
+		"image": "./assets/img/products/plum-tart.webp"
+	},
+	{
+		"id": 26,
+		"name": "Chocolate Chip Cookie",
+		"price": "55.00",
+		"category": "Desserts",
+		"image": "./assets/img/products/chocolate-chip-cookie.webp"
+	},
+	{
+		"id": 27,
+		"name": "Mango Tart",
+		"price": "170.00",
+		"category": "Desserts",
+		"image": "./assets/img/products/mango-tart.webp"
+	},
+	{
+		"id": 28,
+		"name": "Classic Espresso",
+		"price": "20.00",
+		"category": "Drinks",
+		"image": "./assets/img/products/classic-espresso.webp"
+	},
+	{
+		"id": 29,
+		"name": "Hot Chocolate",
+		"price": "12.00",
+		"category": "Drinks",
+		"image": "./assets/img/products/hot-chocolate.webp"
+	},
+	{
+		"id": 30,
+		"name": "Hazelnut Chocolate Bar",
+		"price": "23.00",
+		"category": "Chocolate",
+		"image": "./assets/img/products/hazelnut-chocolate-bar.webp"
+	}
+]
