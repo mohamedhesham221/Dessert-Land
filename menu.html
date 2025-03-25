@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="./assets/css/output.css">
   <title>Menu</title>
 </head>
@@ -23,7 +24,7 @@
           </div>
           <!-- Navbar -->
           <nav>
-            <ul tabindex="0" class="p-2 mt-3 shadow menu menu-sm dropdown-content bg-Pale-Green rounded-box z-1 w-52">
+            <ul tabindex="0" class="p-2 mt-3 shadow menu menu-sm dropdown-content bg-Soft-Ivory rounded-box z-1 w-52">
               <li class="font-medium text-Dark-Olive-Green font-DM"><a href="./about.html">About</a></li>
               <li class="font-medium text-Dark-Olive-Green font-DM"><a href="./menu.html">Menu</a></li>
               <li class="font-medium text-Dark-Olive-Green font-DM"><a href="./contact.html">Contact</a></li>
@@ -81,7 +82,7 @@
         <!-- Menu container -->
         <div class="flex flex-wrap items-center justify-center gap-6 lg:w-[60%] flex-grow" id="menu">
         </div>
-        
+        <!-- Cart -->
         <div class="lg:w-[40%] flex-grow lg:min-h-96">
           <div class="p-5 border rounded-md border-Pale-Green ">
             <h2 class="text-2xl font-semibold text-Deep-Red font-playfair md:text-4xl">Your Cart (<span id="cart-items">0</span>)</h2>
@@ -101,6 +102,11 @@
           </form>
         </div>
       </dialog>
+      <!-- Cart icon -->
+      <div id="cart-icon" class="fixed right-[-100px] transition-all ease-linear flex flex-col items-center w-12 py-2 rounded-tl-full rounded-bl-full shadow-lg top-44 bg-Soft-Ivory">
+        <span id="cart-icon-counter" class="text-xs font-medium text-Dark-Teal font-DM">0</span>
+        <img src="./assets/img/icons8-cart-60.png" alt="Cart icon" class="w-6">
+      </div>
   </main>
   <!-- Footer section -->
   <footer class="p-10 footer sm:footer-horizontal bg-Dark-Gray text-base-content font-DM">

@@ -59,6 +59,7 @@ const getProducts = async () => {
             });
             renderCartItems(cart)
             cartCounter(cart.length)
+            counterIcon(cart.length)
           } else {
             const exicitingItem = cart.find(item => item.product.id === id)
             if (exicitingItem) {
@@ -66,6 +67,7 @@ const getProducts = async () => {
             }
             renderCartItems(cart)
             cartCounter(cart.length)
+            counterIcon(cart.length)
           }
         })
       })
@@ -83,6 +85,7 @@ const getProducts = async () => {
               cart = cart.map((cartItem) => cartItem.product.id === id ? { ...cartItem, quantity: counters[id] } : cartItem)
               renderCartItems(cart)
               cartCounter(cart.length)
+              counterIcon(cart.length)
             }
           }
           if (counters[id] === 0) {
@@ -93,19 +96,27 @@ const getProducts = async () => {
             }
             renderCartItems(cart)
             cartCounter(cart.length)
+            counterIcon(cart.length)
           }
         })
       })
 
     }
-    // Select cart container
-    const cartItems = document.getElementById('cart');
     // Function to update the cart counter
     function cartCounter(count) {
       const cartCounter = document.getElementById('cart-items')
       cartCounter.innerText = count
-
     }
+    // Function to update the cart ICON counter
+    function counterIcon(count) {
+      const iconCounts = document.getElementById("cart-icon-counter")
+      iconCounts.innerText = count
+      console.log(iconCounts);
+    }
+
+    // Select cart container
+    const cartItems = document.getElementById('cart');
+
     function renderCartItems(products) {
       if (!products.length) {
         cartCounter.innerText = products.length
@@ -160,12 +171,12 @@ const getProducts = async () => {
           // Re-render cart & update counter
           renderCartItems(cart);
           cartCounter(cart.length);
-
+          counterIcon(cart.length)
         })
       })
-    // Select modal container
+      // Select modal container
       const confirmBtn = document.getElementById("confirm-order")
-    // Select order list container
+      // Select order list container
       const OrderList = document.getElementById("order-list")
 
       // Event listener to store selected products in final phase order
@@ -201,9 +212,6 @@ const getProducts = async () => {
       })
     }
 
-
-
-
     // Render Empty cart by default
     renderCartItems([])
 
@@ -229,6 +237,7 @@ const getProducts = async () => {
   }
 };
 
+
 // Load the appropriate logic based on the current page
 document.addEventListener('DOMContentLoaded', () => {
   const path = window.location.pathname
@@ -236,6 +245,26 @@ document.addEventListener('DOMContentLoaded', () => {
   if (path.includes('menu.html')) {
     // Load menu page logic
     getProducts();
+
+    // Display & hide cart icon when scroll
+    const cartIcon = document.getElementById("cart-icon")
+    const cart = document.getElementById("cart")
+    window.addEventListener('scroll', showCartIcon)
+    function showCartIcon() {
+      if (window.scrollY >= cartIcon.getBoundingClientRect().y) {
+        cartIcon.style.right = 0
+      } else {
+        cartIcon.style.right = -100 + "px"
+      }
+      if (cart.getBoundingClientRect().y <= 500) {
+        cartIcon.style.right = -100 + "px"
+      }      
+    }
+
+    //Go to Cart
+    cartIcon.addEventListener('click', () => {
+      location.href = "#cart";
+    })
   }
   if (path.includes('contact.html')) {
     const form = document.getElementById("form");
